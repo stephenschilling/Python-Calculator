@@ -16,5 +16,5 @@ elif operator == '/':
         result = "Error! Division by zero."
 else:
     result = "Invalid operator!"
-print("Result:", result)
+print("Result:", round(result, 2))
 # A simple calculator that performs basic arithmetic operations
